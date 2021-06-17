@@ -1,0 +1,7 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+opencv-contrib-python=3.4.2.17=pypi_0
+pillow=7.0.0=py37hb39fc2d_0
+scikit-image=0.16.2=py37h0573a6f_0
+shapely=1.7.0=py37hc88ce51_3

@@ -22,7 +22,7 @@ Each detected rice seedling was labeled with an ID number of paddy field zone by
 
 #### 4. Rice Seedling Alignment
 In this part, an image stitching algorithm based on rice seedlings was implemented. Then, rice seedling alignment between different UAV images was achieved by using the algorithm.  
-`source code 1: code/stitching.py`
+`source code 1: code/stitching.py`  
 `source code 2: code/align_seedling.py`
 
 ## Preperation

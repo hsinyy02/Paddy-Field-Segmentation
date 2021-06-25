@@ -31,7 +31,10 @@ Dataset is built for classification tool in `get_paddy.py`.
 You can make your own dataset by creating directories, `dataset/img/` & `dataset/label_mask/`.
 
 * You need to put binary images whose name format are *`labelName_imgName.jpg`* in `dataset/label_mask/`. The pixel value 1 in a binary image stands for the label area.
+![Example for label_img](/example_for_label_img.jpg)
+
 * Also, you need to put every image whose filename is *`imgName`* from `dataset/label_mask/` in `dataset/img/`.
+![Example for img](/example_for_img.jpg)
 
 ## How to Run
 * `cd code`

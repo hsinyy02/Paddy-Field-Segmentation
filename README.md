@@ -40,6 +40,13 @@ You can make your own dataset by creating directories, `dataset/img/` & `dataset
 * `cd code`
 * `chmod +x start.sh`
 * `start.sh`
+or
+* `cd code`
+* `python get_paddy.py`
+* `python detect_seedling.py`
+* `python label_seedling.py`
+* `python stitching.py`
+* `python align_seedling.py`
 
 ## References
 <a href="https://www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2307202014463300" id="1">[1]</a> 楊欣怡, *透過空拍圖進行稻田區域影像分割與秧苗偵測之研究*, in *工程科學及海洋工程學研究所*. 2021, 國立臺灣大學. p. 1-94.  

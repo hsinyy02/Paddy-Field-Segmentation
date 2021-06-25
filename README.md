@@ -39,8 +39,8 @@ You can make your own dataset by creating directories, `dataset/img/` & `dataset
 ## How to Run
 * `cd code`
 * `chmod +x start.sh`
-* `start.sh`
-or
+* `start.sh`  
+or  
 * `cd code`
 * `python get_paddy.py`
 * `python detect_seedling.py`

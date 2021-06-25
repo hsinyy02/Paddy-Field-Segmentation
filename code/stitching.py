@@ -730,7 +730,6 @@ def _parse_args():
         --ricepath
         --outputpath
         --output_blendingpath
-        --output_ricepairpath
     """
     parser = argparse.ArgumentParser(description='ArgParser for stitching.py')
     parser.add_argument('--inputpath', default='../input/', type=str, help='folder path to input images')

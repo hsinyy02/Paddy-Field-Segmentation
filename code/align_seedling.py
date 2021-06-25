@@ -92,6 +92,7 @@ def _parse_args():
         --ricepath
         --homolist
         --outputpath
+        --output_alignedpath
     """
     parser = argparse.ArgumentParser(description='ArgParser for align_seedling.py')
     parser.add_argument('--inputpath', default='../input/', type=str, help='folder path to input images')

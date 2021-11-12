@@ -299,7 +299,7 @@ if __name__ == '__main__':
             for rice in rice3:
                 pt = rice["pt"]
                 pair23 = next((item for item in ricepairs23 if item["rice2"] == pt), None)
-                pair13 = next((item for item in ricepairs23 if item["rice2"] == pt), None)
+                pair13 = next((item for item in ricepairs13 if item["rice2"] == pt), None)
                 
                 # link rice3 to rice2 in list_rice
                 if pair23 is not None:
